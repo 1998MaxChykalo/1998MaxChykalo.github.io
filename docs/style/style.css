@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+.portfolio-container {
+    width: 60%;
+    margin: auto auto;
+    display: flex;
+    
+}
+
+.web-page-container {
+    border-radius: 5px;
+    box-shadow: 0 0 5px #333;
+    margin: 15px;
+    padding: 10px;
+    transition: .3s all;
+}
+.web-page-container:hover {
+    box-shadow: 0 0 15px #444;
+    transform: scale(1.1);
+    background-color: #fff;
+}
+
+a {
+    display: block;
+}
+
+img {
+    width: 400px;
+}
