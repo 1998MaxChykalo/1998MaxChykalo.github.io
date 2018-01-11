@@ -3,12 +3,14 @@
 }
 
 .portfolio-container {
-    width: 60%;
+    /* width: 60%; */
+    flex-wrap: wrap;
     display: flex;
     
 }
 
 .web-page-container {
+    max-width: 400px;
     border-radius: 5px;
     box-shadow: 0 0 5px #333;
     margin: 15px;
@@ -23,8 +25,14 @@
 
 a {
     display: block;
+    text-decoration: none;
+
 }
 
 img {
-    width: 400px;
+    width: 100%;
+}
+
+li {
+    display: inline-block;
 }
